@@ -1,4 +1,7 @@
-dvc
-pandas
-scikit-learn
+dvc==1.10
+pandas==1.1.0
+scikit-learn==0.23
+
+
+-e .
 

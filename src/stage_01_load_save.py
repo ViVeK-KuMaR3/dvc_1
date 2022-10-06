@@ -1,7 +1,8 @@
-from src.utils.all_utils import read_yaml,create_directory
+from src.utils.all_utils import read_yaml, create_directory
 import pandas as pd
 import argparse
 import os
+
 
 
 def get_data(config_path):

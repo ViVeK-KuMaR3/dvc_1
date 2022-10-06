@@ -13,7 +13,7 @@ setup(
     url="https://github.com/ViVeK-KuMaR3/dvc_1/",
     author_email="vivek123@gmail.com",
     packages=["src"],
-    python_requires=">=3.7",
+    python_requires=">=3.6.9",
     install_requires=[
         'dvc',
         'pandas',
