@@ -15,4 +15,10 @@ def create_directory(dirs:list):
         os.makedirs(dir_path,exist_ok=True)
 
 
+def save_local_df(data,data_path):
+
+    data.to_csv(data_path,index=False)
+    print("Data is saved at {}".format(data_path))
+
+
 
